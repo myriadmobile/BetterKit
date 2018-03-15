@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import BetterKit
 
 class ViewController: UIViewController {
 
@@ -19,6 +20,29 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        NSLog("viewWillAppear")
+    }
 
+    override func viewWillFirstAppear(_ animated: Bool) {
+        super.viewWillFirstAppear(animated)
+        
+        NSLog("viewWillFirstAppear")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        NSLog("viewDidAppear")
+    }
+    
+    override func viewDidFirstAppear(_ animated: Bool) {
+        super.viewDidFirstAppear(animated)
+        
+        NSLog("viewDidFirstAppear")
+    }
 }
 

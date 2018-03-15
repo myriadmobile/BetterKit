@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+@objc extension UIViewController {
+    
+    @objc open func viewWillFirstAppear(_ animated: Bool) { }
+    @objc open func viewDidFirstAppear(_ animated: Bool) { }
+}
