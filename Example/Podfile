@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'BetterKit_Example' do
   pod 'BetterKit', :path => '../'
-
-  target 'BetterKit_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

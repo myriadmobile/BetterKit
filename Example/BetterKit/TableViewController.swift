@@ -11,8 +11,8 @@ import BetterKit
 
 class TableViewController: UITableViewController {
     
-    var sectionCount = Int.random % 3
-    var rowCount = Int.random % 3
+    var sectionCount = Int.random % 10 + 1
+    var rowCount = Int.random % 10 + 1
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,8 +27,8 @@ class TableViewController: UITableViewController {
     }
     
     func reloadTable() {
-        sectionCount = Int.random % 10
-        rowCount = Int.random % 10
+        sectionCount = Int.random % 10 + 1
+        rowCount = Int.random % 10 + 1
         tableView.reloadData(true)
     }
 
@@ -40,12 +40,10 @@ class TableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-//        return Int.random % 3
         return sectionCount
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        return Int.random % 3
         return rowCount
     }
 

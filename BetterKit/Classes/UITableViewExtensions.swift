@@ -1,4 +1,4 @@
-//
+
 //  UITableViewExtensions.swift
 //  BetterKit
 //
@@ -9,21 +9,22 @@ import Foundation
 
 @objc extension UITableView {
     
-    @objc open func reloadData(_ animated: Bool) {
-        guard animated else { reloadData(); return }
+    @objc open func reloadData(_ animated: Bool, completion: (()->Void)? = nil) {
+        guard animated else { reloadData(); completion?(); return }
 
-        reloadData(animation: .none)
+        reloadData(animation: .none, completion: completion)
     }
     
-    @objc open func reloadData(animation: UITableViewRowAnimation) {
-        beginUpdates()
-        
+    @objc open func reloadData(animation: UITableViewRowAnimation, completion: (()->Void)? = nil) {
         var addedRows = [IndexPath]()
         var addedSections = IndexSet()
         var deletedRows = [IndexPath]()
         var deletedSections = IndexSet()
         var reloadedRows = [IndexPath]()
         
+        var newRowCountBySections = [Int]()
+        var oldRowCountBySections = [Int]()
+
         let newSectionCount = dataSource?.numberOfSections?(in: self) ?? 1
         let oldSectionCount = numberOfSections
         
@@ -40,6 +41,9 @@ import Foundation
                     oldRowCount = 0
                 }
                 
+                newRowCountBySections.append(newRowCount)
+                oldRowCountBySections.append(oldRowCount)
+
                 for row in 0 ..< max(newRowCount, oldRowCount) {
                     let indexPath = IndexPath(row: row, section: section)
                     if row >= oldRowCount {
@@ -53,12 +57,55 @@ import Foundation
             }
         }
         
+        // We might be on the same thread, but that doesn't mean we can't assume the values didn't change.
+        // We need to double check that nothing has changed.
+        
+        func handleValueChanged(_ failingMethodName: String) {
+            NSLog("\(failingMethodName) has returned an inconsistent value than at the beginning of the animation.  Aborting animation.")
+            reloadData()
+            endUpdates()
+            CATransaction.commit()
+        }
+
+        guard newSectionCount == dataSource?.numberOfSections?(in: self) ?? 1 else {
+            handleValueChanged("UITableViewDataSource.numberOfSections")
+            return
+        }
+        guard oldSectionCount == numberOfSections else {
+            handleValueChanged("UITableView.numberOfSections")
+            return
+        }
+
+        for section in 0 ..< newRowCountBySections.count {
+            let newRowCount = dataSource?.tableView(self, numberOfRowsInSection: section) ?? 0
+            var oldRowCount = numberOfRows(inSection: section)
+            //HACK: Sometimes numberOfRows returns Int.max rather than zero.
+            if oldRowCount == Int.max {
+                oldRowCount = 0
+            }
+
+            guard newRowCount == newRowCountBySections[section] else {
+                handleValueChanged("UITableViewDataSource.tableView(tableView, numberOfRowsInSection:\(section)")
+                return
+            }
+
+            guard oldRowCount == oldRowCountBySections[section] else {
+                handleValueChanged("UITableView.numberOfRows(inSection:\(section)")
+                return
+            }
+        }
+        
+        CATransaction.begin()
+        beginUpdates()
+        CATransaction.setCompletionBlock(completion)
+        
         reloadRows(at: reloadedRows, with: animation)
         insertRows(at: addedRows, with: animation)
         insertSections(addedSections, with: animation)
         deleteRows(at: deletedRows, with: animation)
         deleteSections(deletedSections, with: animation)
         
-        endUpdates()
+        self.endUpdates()
+        CATransaction.commit()
     }
 }

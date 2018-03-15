@@ -11,6 +11,7 @@
 #endif
 
 #import "Loader.h"
+#import "ObjcBlockCatcher.h"
 
 FOUNDATION_EXPORT double BetterKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char BetterKitVersionString[];
