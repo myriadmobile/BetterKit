@@ -1,0 +1,29 @@
+{
+  "name": "BetterKit",
+  "version": "0.1.0",
+  "summary": "A collection of useful tools to enhance standard application development",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/myriadmobile/BetterKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "myriadmobile": "developer@myriadmobile.com"
+  },
+  "source": {
+    "git": "https://github.com/myriadmobile/BetterKit.git",
+    "branch": "master",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BetterKit/Classes/**/*.{swift,h,m}",
+  "resource_bundles": {
+    "BetterKit": [
+      "BetterKit/Classes/**/*.{xib,storyboard,png,jpeg,jpg,txt,ttf,xcassets}"
+    ]
+  },
+  "frameworks": "UIKit"
+}
