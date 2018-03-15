@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BetterKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A collection of useful tools to enhance standard application development'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+BetterKit provides a collection of useful extension methods off existing libraries that assist in speeding up development.
+No subclassing, just import and enjoy a better experience!
                        DESC
 
   s.homepage         = 'https://github.com/myriadmobile/BetterKit'
