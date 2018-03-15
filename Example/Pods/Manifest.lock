@@ -1,5 +1,5 @@
 PODS:
-  - BetterKit (0.1.0)
+  - BetterKit (0.1.2)
 
 DEPENDENCIES:
   - BetterKit (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BetterKit: b8afbe6447b9202cb04ad5ceb28fb54e8a525503
+  BetterKit: 0deca500becb4244fe2a1eddf0747ae63985ffc7
 
 PODFILE CHECKSUM: 43cd2fbd8a2035d3a9fc098197987e58992e5586
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.4.0
