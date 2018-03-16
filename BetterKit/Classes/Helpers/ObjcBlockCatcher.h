@@ -9,6 +9,6 @@
 
 @interface ObjcBlockCatcher : NSObject
 
-+ (NSException *_Nullable)attemptBlock:(void (^ _Nullable)(void)) block;
++ (BOOL)objc_trySafe:(void(^ _Nullable)(void))block error:(__autoreleasing NSError *_Nullable*_Nullable)error;
 
 @end

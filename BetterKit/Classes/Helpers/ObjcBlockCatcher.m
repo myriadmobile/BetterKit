@@ -9,17 +9,17 @@
 
 @implementation ObjcBlockCatcher
 
-+ (NSException *_Nullable)attemptBlock:(void (^ _Nullable)(void)) block {
++ (BOOL)objc_trySafe:(void(^ _Nullable)(void))block error:(__autoreleasing NSError *_Nullable*_Nullable)error {
     @try {
         if (block != nil) {
             block();
         }
+        return YES;
     }
     @catch (NSException *exception) {
-        return exception;
+        *error = [[NSError alloc] initWithDomain:exception.name code:0 userInfo:exception.userInfo];
+        return NO;
     }
-    
-    return nil;
 }
 
 @end
