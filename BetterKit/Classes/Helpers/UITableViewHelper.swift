@@ -50,7 +50,7 @@ internal extension UITableView {
             }
         }
         
-        // We might be on the same thread, but that doesn't mean we can't assume the values didn't change.
+        // We might be on the same thread, but that doesn't mean we can assume the values didn't change.
         // We need to double check that nothing has changed.
         
         func handleValueChanged(_ failingMethodName: String) {
