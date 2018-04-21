@@ -1,13 +1,13 @@
 //
-//  Loader.m
+//  BetterKitLoader.m
 //  BetterKit
 //
 //  Created by Nathan Jangula on 3/15/18.
 //
 
-#import "Loader.h"
+#import "BetterKitLoader.h"
 
-@implementation Loader
+@implementation BetterKitLoader
 
 + (void)load {
     [super load];
