@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "Loader.h"
+#import "BetterKitLoader.h"
 #import "ObjcBlockCatcher.h"
 
 FOUNDATION_EXPORT double BetterKitVersionNumber;
