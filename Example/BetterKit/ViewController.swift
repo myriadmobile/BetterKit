@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import BetterKit
 
 class ViewController: UIViewController {
 
@@ -26,7 +25,7 @@ class ViewController: UIViewController {
         
         NSLog("viewWillAppear")
     }
-
+ 
     override func viewWillFirstAppear(_ animated: Bool) {
         super.viewWillFirstAppear(animated)
         
