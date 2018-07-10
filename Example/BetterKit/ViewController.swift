@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
+        let color = UIColor(hexComponent: 0x12FF00)
     }
     
     override func viewWillAppear(_ animated: Bool) {

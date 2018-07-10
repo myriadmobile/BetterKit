@@ -8,6 +8,9 @@
 import Foundation
 
 public extension Int {
+    /**
+     Generates a random Integer.
+     */
     public static var random: Int {
         get { return Int(arc4random()) }
     }

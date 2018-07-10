@@ -8,12 +8,22 @@
 import Foundation
 
 public extension NSObject {
-    /// This function allows you to safely try something that would normally throw an uncatchable exception.
+    /**
+     Allows for safely trying something that would normally throw an uncatchable exception.
+     
+     :param: block    The block to attempt
+     */
+    ///
     func trySafe(_ block : (() -> Void)?) throws {
         try NSObject.trySafe(block)
     }
     
-    /// This function allows you to safely try something that would normally throw an uncatchable exception.
+    /**
+     Allows for safely trying something that would normally throw an uncatchable exception.
+     
+     :param: block    The block to attempt
+     */
+    ///
     static func trySafe(_ block : (() -> Void)?) throws {
         try ObjcBlockCatcher.objc_trySafe(block)
     }
