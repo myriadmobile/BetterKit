@@ -1,5 +1,5 @@
 PODS:
-  - BetterKit (0.1.3)
+  - BetterKit (0.2.0)
 
 DEPENDENCIES:
   - BetterKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BetterKit: 3360c7f63dc08ecc68d25fe29563681ace023596
+  BetterKit: 2c53de4050f5c54f892f30345ff311332284ceaf
 
 PODFILE CHECKSUM: c60990f16e9aff3e0ef6e11920cadcbd1f9fd87b
 
