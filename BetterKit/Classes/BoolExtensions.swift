@@ -13,7 +13,7 @@ extension Bool {
      :param: left     The left side of the concatenation
      :param: right    The right side of the concatenation
      */
-    static func &=(left: inout Bool, right: Bool) -> Bool {
+    public static func &=(left: inout Bool, right: Bool) -> Bool {
         left = left && right
         return left
     }
@@ -24,7 +24,7 @@ extension Bool {
      :param: left     The left side of the concatenation
      :param: right    The right side of the concatenation
      */
-    static func |=(left: inout Bool, right: Bool) -> Bool {
+    public static func |=(left: inout Bool, right: Bool) -> Bool {
         left = left || right
         return left
     }

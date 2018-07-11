@@ -14,7 +14,7 @@ extension UINavigationController {
      :param: ofType      The type of view controller to pop back to
      :param: animated    Whether the pop should be animated
      */
-    func popToFirstViewController<T: UIViewController>(ofType: T.Type, animated: Bool) {
+    open func popToFirstViewController<T: UIViewController>(ofType: T.Type, animated: Bool) {
         if let vc = self.viewControllers.reversed().first(where: {$0 is T}) {
             self.popToViewController(vc, animated: animated)
         }

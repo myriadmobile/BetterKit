@@ -7,7 +7,7 @@
 
 import Foundation
 
-public extension Int {
+extension Int {
     /**
      Generates a random Integer.
      */

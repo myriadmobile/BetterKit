@@ -7,15 +7,15 @@
 
 import Foundation
 
-public extension UIColor {
+@objc extension UIColor {
     
     /**
      Generates a random UIColor.
      
      :returns:    A random UIColor
      */
-    public static var random: UIColor {
-        get { return UIColor(red: Int.random % 256, green: Int.random % 256, blue: Int.random % 256, alpha: 255) }
+    @objc public static var random: UIColor {
+        get { return UIColor(redInt: Int.random % 256, greenInt: Int.random % 256, blueInt: Int.random % 256, alphaInt: 255) }
     }
     
     /**
@@ -26,13 +26,13 @@ public extension UIColor {
      :param: blue     An Int specifying the blue component between 0 and 255
      :param: alpha    An Int specifying the alpha component between 0 and 255
      */
-    convenience init(red: Int, green: Int, blue: Int, alpha: Int = 255) {
-        assert(red >= 0x00 && red <= 0xFF, "Invalid red component")
-        assert(green >= 0x00 && green <= 0xFF, "Invalid green component")
-        assert(blue >= 0x00 && blue <= 0xFF, "Invalid blue component")
-        assert(alpha >= 0x00 && alpha <= 0xFF, "Invalid alpha component")
+    @objc public convenience init(redInt: Int, greenInt: Int, blueInt: Int, alphaInt: Int = 255) {
+        assert(redInt >= 0x00 && redInt <= 0xFF, "Invalid red component")
+        assert(greenInt >= 0x00 && greenInt <= 0xFF, "Invalid green component")
+        assert(blueInt >= 0x00 && blueInt <= 0xFF, "Invalid blue component")
+        assert(alphaInt >= 0x00 && alphaInt <= 0xFF, "Invalid alpha component")
 
-        self.init(red: CGFloat(red) / 255.0, green: CGFloat(green) / 255.0, blue: CGFloat(blue) / 255.0, alpha: CGFloat(alpha) / 255.0)
+        self.init(red: CGFloat(redInt) / 255.0, green: CGFloat(greenInt) / 255.0, blue: CGFloat(blueInt) / 255.0, alpha: CGFloat(alphaInt) / 255.0)
     }
     
     /**
@@ -41,15 +41,15 @@ public extension UIColor {
      :param: hexComponent    An Int specifying the hex component
      :param: alpha           An Int specifying the alpha component between 0 and 255
      */
-    convenience init(hexComponent: Int, alpha: Int = 255) {
+    @objc public convenience init(hexComponent: Int, alpha: Int = 255) {
         assert(hexComponent >= 0x000000 && hexComponent <= 0xFFFFFF, "Invalid hexComponent component")
         assert(alpha >= 0x00 && alpha <= 0xFF, "Invalid alpha component")
         
         self.init(
-            red: (hexComponent >> 16) & 0xFF,
-            green: (hexComponent >> 8) & 0xFF,
-            blue: hexComponent & 0xFF,
-            alpha: alpha
+            redInt: (hexComponent >> 16) & 0xFF,
+            greenInt: (hexComponent >> 8) & 0xFF,
+            blueInt: hexComponent & 0xFF,
+            alphaInt: alpha
         )
     }
     
@@ -58,7 +58,7 @@ public extension UIColor {
      
      :param: hexString    A string specifying the hex component
      */
-    convenience init(hexString: String) {
+    @objc public convenience init(hexString: String) {
         let hex = hexString.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         var int = UInt32()
         Scanner(string: hex).scanHexInt32(&int)
@@ -73,7 +73,7 @@ public extension UIColor {
         default:
             (a, r, g, b) = (255, 0, 0, 0)
         }
-        self.init(red: Int(r), green: Int(g), blue: Int(b), alpha: Int(a))
+        self.init(redInt: Int(r), greenInt: Int(g), blueInt: Int(b), alphaInt: Int(a))
     }
         
 }

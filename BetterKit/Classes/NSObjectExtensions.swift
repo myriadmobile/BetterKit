@@ -7,14 +7,14 @@
 
 import Foundation
 
-public extension NSObject {
+@objc extension NSObject {
     /**
      Allows for safely trying something that would normally throw an uncatchable exception.
      
      :param: block    The block to attempt
      */
     ///
-    func trySafe(_ block : (() -> Void)?) throws {
+    @objc open func trySafe(_ block : (() -> Void)?) throws {
         try NSObject.trySafe(block)
     }
     
@@ -24,7 +24,7 @@ public extension NSObject {
      :param: block    The block to attempt
      */
     ///
-    static func trySafe(_ block : (() -> Void)?) throws {
+    @objc open static func trySafe(_ block : (() -> Void)?) throws {
         try ObjcBlockCatcher.objc_trySafe(block)
     }
 }

@@ -7,8 +7,8 @@
 
 import Foundation
 
-extension UINavigationBar {
-    var isTransparent: Bool {
+@objc extension UINavigationBar {
+    @objc open var isTransparent: Bool {
         get { return backgroundImage(for: .default) != nil && shadowImage != nil && isTranslucent }
         set {
             setBackgroundImage(newValue ? UIImage() : nil, for: .default)
