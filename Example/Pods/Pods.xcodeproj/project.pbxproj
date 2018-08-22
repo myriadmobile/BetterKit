@@ -7,30 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0782F3C3D5590215BEF03797C089C336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		0C3C088F186E8BD4D638AE694F8989AB /* TickTock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6723222820FC947326E840F34BA78A9A /* TickTock.swift */; };
-		15B22A34ACEC691ADD86732D626EEE1F /* UINavigationControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8A7A4FE09DC5FF60864917BBC19BA1 /* UINavigationControllerExtensions.swift */; };
-		273E5BAEA91CB136EBAC34818970EBEC /* Swizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D239272BD04A3D4DDC3A179028167187 /* Swizzler.swift */; };
-		482EA3455725748220643B7E8086AF95 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5FB3E0051C65CFCE186BDDE572F657 /* StringExtensions.swift */; };
-		4F79382EAB107694196C2FCEA75095C2 /* BetterKitLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = CC2E561F5B315DC5CBF56CA9083DD2F0 /* BetterKitLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FA939842337989972122C7DE17AE42D /* DispatchOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8FFDFA387C6EB58E37DE5FFFF2FC02 /* DispatchOnce.swift */; };
-		52FEC1380B8C5C660631BE148A917EE5 /* BoolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7524F326CDEB4F0B2FE1BF70A221960E /* BoolExtensions.swift */; };
-		622A3BBAA28E40AF3921143CB205C204 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3128E0B7966F1D40E553C6340FDE4893 /* IntExtensions.swift */; };
-		6970D087E2489BA0544F198D59C292E2 /* UIViewControllerLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A08ACCAF4448FBF8C45EA42B8E6007 /* UIViewControllerLoader.swift */; };
-		7517B9B52CC947ACBA108A339504B9CD /* BetterKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFF3ABDBD8B37637A53F6A117ABB2513 /* BetterKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BC826AC83A14ED05080F9291E1AB555 /* BetterKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB667732474DE48430D8168EE805243 /* BetterKit-dummy.m */; };
-		8082C2269054B8D12B89F5C0258D7FEE /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567B3361E0B6A0909EACBD8DE68DFE3A /* UITableViewExtensions.swift */; };
-		898F8DB7CC5480DCBC93B0BEFB1B1A3D /* ObjcBlockCatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7B4CA61CC772CC980124F97CDA7198 /* ObjcBlockCatcher.m */; };
+		13D7658B10E639CACEFE5C9AAA40451A /* BetterKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D50AEABB6CA593D6385FFC64A6E556A0 /* BetterKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A7C628F0BEE482720F8D0107280FEFF /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5900751730FE193C8D092CB782F2544E /* IntExtensions.swift */; };
+		3E53C78EB3D18AE37C2D6F74B7CD898E /* Swizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF28A3CF0E7FE61D4FF4A7BDAB0A0A6 /* Swizzler.swift */; };
+		4D5AA9D864BFCD35B41E47EF02477846 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		6751E9F9BF7634380B723AAB807163F4 /* ObjcBlockCatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA174C52C54A6C2FE97345A883A89E4 /* ObjcBlockCatcher.m */; };
+		78EEAEA18AB99A0A0C934452A639D714 /* UIViewControllerLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0BCB8C478907522332EE480580DAB6 /* UIViewControllerLoader.swift */; };
+		8B2069A5BC33721D1562EAC9BD9D438B /* ObjcBlockCatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 73A9B649D4115DB6ACFCD64934E3F2E1 /* ObjcBlockCatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D7340606D4899290B66C4ABA4392F8E /* BetterKitLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BAAF16B92F050D1A194AB993A0C9722 /* BetterKitLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E02223C1C9FC2935936F155326D1B47 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743D557D696CDF80C2083C6E801E05CA /* UIColorExtensions.swift */; };
+		8E83C2555910FF8EDB9C6337E2AAA22D /* UITableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59885EDE8C9C8184FBE85558EC453168 /* UITableViewHelper.swift */; };
 		928CE2EA0E3338F95ABE3E67E62A1BF5 /* Pods-BetterKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD881905E84F48EA77C11D48D8AC6D9 /* Pods-BetterKit_Example-dummy.m */; };
-		9C9A100B97BF9383E47F752BE3A5359B /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072318D63676E6CCFD0609A817EEDCF /* NSObjectExtensions.swift */; };
-		9E94338D431BD299C8C875365F0E4E4A /* UITableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B05A9BCB9E81734E876F2247AAFDA31 /* UITableViewHelper.swift */; };
+		972E6276D4666B096CFBC137B8FC673E /* UINavigationControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679E788DA1BBBAC1B3C57F7D944538DF /* UINavigationControllerExtensions.swift */; };
+		A5DFF52099728EAF05781BFB94515B9F /* BetterKitLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B0030FB27DE014B38B473735BA9F1FB7 /* BetterKitLoader.m */; };
+		B724BF50734B782A292852C5B4D4F207 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		BB00F7EB01DFA6C9AD6C013D7BD192C3 /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5633AEDA0D1EF918A1A4AFAB65CB0CB /* UITableViewExtensions.swift */; };
+		BEC471EB1942B818C9153248E454C26F /* BetterKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0C69C3B5DF436135380673548A1265 /* BetterKit-dummy.m */; };
 		BF2E5878B022E5A4E65FBFBAFB2332E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		CC732373C54E1D181FBBAB42B5F4477F /* UINavigationBarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F564232A205F1428AEC055A51945A /* UINavigationBarExtensions.swift */; };
-		D0ECC23E12E16352B91DC40C7061CD83 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B214B700D87876A34C199B7C8D061747 /* UIViewControllerExtensions.swift */; };
-		D824A1FDCA560AE9032A7B46DA433D43 /* BetterKitLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = A12C19342E74CCAB7FB9C921C2C7CB20 /* BetterKitLoader.m */; };
-		DB5AA221F650D154B7C2E5AF0A2A1E3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		E281DAE99F640F2326CF6B231654F2BA /* ObjcBlockCatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2027936C47896B3A44251795E3F82DB5 /* ObjcBlockCatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA5F2FDDFA141901E66218BD83A6A86D /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71F0DA839CDC36D3823D6DA4AC71C24 /* UIColorExtensions.swift */; };
+		CB4DB87CBFBEE03186B31E9E85964F73 /* TickTock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D61F71DB241285237190A2FE956FDB2 /* TickTock.swift */; };
+		CB88810E859042FAFAF3480A9A3D7E84 /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF116B012F84BAC2E621F844BB510C5 /* DataExtensions.swift */; };
+		D2F7D03A0CC009AAEC638E2C726016FF /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B0FFE3C767A0888A6F855AE0B59CD5 /* StringExtensions.swift */; };
+		E2264A1FA5AAD61BD4192A2F52944C82 /* UINavigationBarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03086A5560374F6C82AD1D2ABBBE6A9B /* UINavigationBarExtensions.swift */; };
+		EE868A218F1BC07F53637FBE36AA43F1 /* BoolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19386EB8985A45298E25A5CF8BD9DC92 /* BoolExtensions.swift */; };
+		F11CF2CB42F6BB15E40301C3CD8093DC /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57096B7357EE7EF40CDA0F49DEB5170E /* UIViewControllerExtensions.swift */; };
+		F33DDBF88AE60711DCD1A61E04CCD40C /* DispatchOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2FDB250D397BF03AE90FA09F83452 /* DispatchOnce.swift */; };
+		F5FD2FFC1BA02E17DE711996BB7D420C /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0E56306796EF71C6A0F3D6D2728816 /* NSObjectExtensions.swift */; };
 		FB84C2EC3C10C625EE850B7C3839C068 /* Pods-BetterKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1519AB4C1CB177B863CC0FF0022D8C38 /* Pods-BetterKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,66 +40,58 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 85BBF36856B7CA27DC554D4964840877;
+			remoteGlobalIDString = 696E7499A5C032E24600341B28E9603A;
 			remoteInfo = BetterKit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03086A5560374F6C82AD1D2ABBBE6A9B /* UINavigationBarExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UINavigationBarExtensions.swift; path = BetterKit/Classes/UINavigationBarExtensions.swift; sourceTree = "<group>"; };
 		0A4ECD45E0836D3F9327EFEBE2067A01 /* Pods-BetterKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BetterKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		12A08ACCAF4448FBF8C45EA42B8E6007 /* UIViewControllerLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerLoader.swift; sourceTree = "<group>"; };
 		1519AB4C1CB177B863CC0FF0022D8C38 /* Pods-BetterKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BetterKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		1C4F564232A205F1428AEC055A51945A /* UINavigationBarExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UINavigationBarExtensions.swift; path = BetterKit/Classes/UINavigationBarExtensions.swift; sourceTree = "<group>"; };
-		1F3A7C2CD6DB0D68AA285E0110970685 /* BetterKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BetterKit.framework; path = BetterKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2027936C47896B3A44251795E3F82DB5 /* ObjcBlockCatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ObjcBlockCatcher.h; sourceTree = "<group>"; };
-		21B71F067AEFF582546AFE50AA4B5F2D /* BetterKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BetterKit.modulemap; sourceTree = "<group>"; };
-		3128E0B7966F1D40E553C6340FDE4893 /* IntExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtensions.swift; path = BetterKit/Classes/IntExtensions.swift; sourceTree = "<group>"; };
-		3B05A9BCB9E81734E876F2247AAFDA31 /* UITableViewHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewHelper.swift; sourceTree = "<group>"; };
-		3C85111139B1F4372806C19AACA95466 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3E7B4CA61CC772CC980124F97CDA7198 /* ObjcBlockCatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ObjcBlockCatcher.m; sourceTree = "<group>"; };
-		41CD4D35E41FB6DA38462465108388E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19386EB8985A45298E25A5CF8BD9DC92 /* BoolExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoolExtensions.swift; path = BetterKit/Classes/BoolExtensions.swift; sourceTree = "<group>"; };
+		1DC5A5BA48AD770F2ED58D07D0AE201B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F3A7C2CD6DB0D68AA285E0110970685 /* BetterKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BetterKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D61F71DB241285237190A2FE956FDB2 /* TickTock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TickTock.swift; path = BetterKit/Classes/TickTock.swift; sourceTree = "<group>"; };
+		3AA2FDB250D397BF03AE90FA09F83452 /* DispatchOnce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DispatchOnce.swift; sourceTree = "<group>"; };
+		3BAAF16B92F050D1A194AB993A0C9722 /* BetterKitLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BetterKitLoader.h; sourceTree = "<group>"; };
 		42355BF404BC9C94920157762C7C7B92 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42393904B4576C017998685422D10AD9 /* Pods-BetterKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BetterKit_Example.modulemap"; sourceTree = "<group>"; };
-		4B9E706BE37AE93EE88C53D677A76B66 /* Pods_BetterKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BetterKit_Example.framework; path = "Pods-BetterKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9E706BE37AE93EE88C53D677A76B66 /* Pods_BetterKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B2222752008DEE1F78FD42A9610045 /* Pods-BetterKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BetterKit_Example-resources.sh"; sourceTree = "<group>"; };
-		567B3361E0B6A0909EACBD8DE68DFE3A /* UITableViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewExtensions.swift; path = BetterKit/Classes/UITableViewExtensions.swift; sourceTree = "<group>"; };
-		6723222820FC947326E840F34BA78A9A /* TickTock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TickTock.swift; path = BetterKit/Classes/TickTock.swift; sourceTree = "<group>"; };
-		7524F326CDEB4F0B2FE1BF70A221960E /* BoolExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoolExtensions.swift; path = BetterKit/Classes/BoolExtensions.swift; sourceTree = "<group>"; };
-		765AE05315197CF11F9E6082DFEE515F /* BetterKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BetterKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7B754DCEB524B14725E470090C1B20E0 /* BetterKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BetterKit-prefix.pch"; sourceTree = "<group>"; };
-		7E8FFDFA387C6EB58E37DE5FFFF2FC02 /* DispatchOnce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DispatchOnce.swift; sourceTree = "<group>"; };
+		57096B7357EE7EF40CDA0F49DEB5170E /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtensions.swift; path = BetterKit/Classes/UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		5900751730FE193C8D092CB782F2544E /* IntExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtensions.swift; path = BetterKit/Classes/IntExtensions.swift; sourceTree = "<group>"; };
+		59885EDE8C9C8184FBE85558EC453168 /* UITableViewHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableViewHelper.swift; sourceTree = "<group>"; };
+		5F0BCB8C478907522332EE480580DAB6 /* UIViewControllerLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerLoader.swift; sourceTree = "<group>"; };
+		610BF8DA20FB14EE583ADD6C39F0F0D9 /* BetterKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BetterKit-prefix.pch"; sourceTree = "<group>"; };
+		679E788DA1BBBAC1B3C57F7D944538DF /* UINavigationControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UINavigationControllerExtensions.swift; path = BetterKit/Classes/UINavigationControllerExtensions.swift; sourceTree = "<group>"; };
+		6C0E56306796EF71C6A0F3D6D2728816 /* NSObjectExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSObjectExtensions.swift; path = BetterKit/Classes/NSObjectExtensions.swift; sourceTree = "<group>"; };
+		73A9B649D4115DB6ACFCD64934E3F2E1 /* ObjcBlockCatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ObjcBlockCatcher.h; sourceTree = "<group>"; };
+		743D557D696CDF80C2083C6E801E05CA /* UIColorExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtensions.swift; path = BetterKit/Classes/UIColorExtensions.swift; sourceTree = "<group>"; };
+		8AF116B012F84BAC2E621F844BB510C5 /* DataExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataExtensions.swift; path = BetterKit/Classes/DataExtensions.swift; sourceTree = "<group>"; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EB667732474DE48430D8168EE805243 /* BetterKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BetterKit-dummy.m"; sourceTree = "<group>"; };
-		A12C19342E74CCAB7FB9C921C2C7CB20 /* BetterKitLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BetterKitLoader.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A210A3245748C065854F5598C8128509 /* BetterKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BetterKit.xcconfig; sourceTree = "<group>"; };
+		A5B0FFE3C767A0888A6F855AE0B59CD5 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = BetterKit/Classes/StringExtensions.swift; sourceTree = "<group>"; };
 		A78D4C51AC254B3383794FA62478385D /* Pods-BetterKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BetterKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A9FC643524CAF0476913C3E6AFE8B329 /* BetterKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BetterKit.xcconfig; sourceTree = "<group>"; };
-		AE5FB3E0051C65CFCE186BDDE572F657 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = BetterKit/Classes/StringExtensions.swift; sourceTree = "<group>"; };
-		B214B700D87876A34C199B7C8D061747 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtensions.swift; path = BetterKit/Classes/UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		AE12FFE6336EAB72410E59B331A9A116 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AE947022F366CB6A125DD2A1460BC300 /* BetterKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = BetterKit.podspec; sourceTree = "<group>"; };
+		B0030FB27DE014B38B473735BA9F1FB7 /* BetterKitLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BetterKitLoader.m; sourceTree = "<group>"; };
+		B5633AEDA0D1EF918A1A4AFAB65CB0CB /* UITableViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewExtensions.swift; path = BetterKit/Classes/UITableViewExtensions.swift; sourceTree = "<group>"; };
+		B574087610CB3FEDFFAA612AE8E43B47 /* BetterKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BetterKit.modulemap; sourceTree = "<group>"; };
+		BA0C69C3B5DF436135380673548A1265 /* BetterKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BetterKit-dummy.m"; sourceTree = "<group>"; };
 		BC1C7893DB66C7E15F50365E8135397E /* Pods-BetterKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BetterKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BD8A7A4FE09DC5FF60864917BBC19BA1 /* UINavigationControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UINavigationControllerExtensions.swift; path = BetterKit/Classes/UINavigationControllerExtensions.swift; sourceTree = "<group>"; };
-		C71F0DA839CDC36D3823D6DA4AC71C24 /* UIColorExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtensions.swift; path = BetterKit/Classes/UIColorExtensions.swift; sourceTree = "<group>"; };
-		CC2E561F5B315DC5CBF56CA9083DD2F0 /* BetterKitLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BetterKitLoader.h; sourceTree = "<group>"; };
-		CFF3ABDBD8B37637A53F6A117ABB2513 /* BetterKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BetterKit-umbrella.h"; sourceTree = "<group>"; };
-		D239272BD04A3D4DDC3A179028167187 /* Swizzler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Swizzler.swift; sourceTree = "<group>"; };
+		CCA174C52C54A6C2FE97345A883A89E4 /* ObjcBlockCatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ObjcBlockCatcher.m; sourceTree = "<group>"; };
 		D4192766A909C8962CD4B4150E23FCFB /* Pods-BetterKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BetterKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D50AEABB6CA593D6385FFC64A6E556A0 /* BetterKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BetterKit-umbrella.h"; sourceTree = "<group>"; };
 		E0B3EBB66BD8C30E91BC8D8C7D0B8C4D /* Pods-BetterKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BetterKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F072318D63676E6CCFD0609A817EEDCF /* NSObjectExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSObjectExtensions.swift; path = BetterKit/Classes/NSObjectExtensions.swift; sourceTree = "<group>"; };
+		E436F0868DAC4B019F25D52ADAA34447 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FBD881905E84F48EA77C11D48D8AC6D9 /* Pods-BetterKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BetterKit_Example-dummy.m"; sourceTree = "<group>"; };
-		FEAC997AF4C74182F0C78F3B1F08692A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FBF28A3CF0E7FE61D4FF4A7BDAB0A0A6 /* Swizzler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Swizzler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		39AF4A93AA81BBC3D9EF1155B02DB36E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0782F3C3D5590215BEF03797C089C336 /* Foundation.framework in Frameworks */,
-				DB5AA221F650D154B7C2E5AF0A2A1E3B /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AECE00EFA933180DFF62870ABAFF061B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -107,9 +100,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE0CC0130E0158575E284A2F7FA6F011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5AA9D864BFCD35B41E47EF02477846 /* Foundation.framework in Frameworks */,
+				B724BF50734B782A292852C5B4D4F207 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0279A543109190D850686C96E264ED10 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B574087610CB3FEDFFAA612AE8E43B47 /* BetterKit.modulemap */,
+				A210A3245748C065854F5598C8128509 /* BetterKit.xcconfig */,
+				BA0C69C3B5DF436135380673548A1265 /* BetterKit-dummy.m */,
+				610BF8DA20FB14EE583ADD6C39F0F0D9 /* BetterKit-prefix.pch */,
+				D50AEABB6CA593D6385FFC64A6E556A0 /* BetterKit-umbrella.h */,
+				1DC5A5BA48AD770F2ED58D07D0AE201B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BetterKit";
+			sourceTree = "<group>";
+		};
 		0C42DA3CBA425E7BAA35E55EF0D64690 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,14 +142,6 @@
 				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		390D4764393CDBAFE3BBEE48B9759A89 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F3176D75C61FA8A5246B0DE176F79BE6 /* BetterKit */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -162,41 +170,47 @@
 			path = "Target Support Files/Pods-BetterKit_Example";
 			sourceTree = "<group>";
 		};
-		4E6C0B9D422D24BFDB369EBE5B5828E8 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				CC2E561F5B315DC5CBF56CA9083DD2F0 /* BetterKitLoader.h */,
-				A12C19342E74CCAB7FB9C921C2C7CB20 /* BetterKitLoader.m */,
-				7E8FFDFA387C6EB58E37DE5FFFF2FC02 /* DispatchOnce.swift */,
-				2027936C47896B3A44251795E3F82DB5 /* ObjcBlockCatcher.h */,
-				3E7B4CA61CC772CC980124F97CDA7198 /* ObjcBlockCatcher.m */,
-				D239272BD04A3D4DDC3A179028167187 /* Swizzler.swift */,
-				3B05A9BCB9E81734E876F2247AAFDA31 /* UITableViewHelper.swift */,
-				12A08ACCAF4448FBF8C45EA42B8E6007 /* UIViewControllerLoader.swift */,
-			);
-			name = Helpers;
-			path = BetterKit/Classes/Helpers;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				390D4764393CDBAFE3BBEE48B9759A89 /* Development Pods */,
+				F82B8543F078B0EDA385E30A3FFB8B5A /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				0C42DA3CBA425E7BAA35E55EF0D64690 /* Products */,
 				9EE58BD55E3496697F64615CDF427CD1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		94BDE3CD552A6B35ADEBEDCA74356943 /* Pod */ = {
+		83E7DD5CEDF4D8C5F9711603DB465128 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				765AE05315197CF11F9E6082DFEE515F /* BetterKit.podspec */,
-				FEAC997AF4C74182F0C78F3B1F08692A /* LICENSE */,
-				3C85111139B1F4372806C19AACA95466 /* README.md */,
+				AE947022F366CB6A125DD2A1460BC300 /* BetterKit.podspec */,
+				E436F0868DAC4B019F25D52ADAA34447 /* LICENSE */,
+				AE12FFE6336EAB72410E59B331A9A116 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		889997DAC46996F204C5F14355DA9E4A /* BetterKit */ = {
+			isa = PBXGroup;
+			children = (
+				19386EB8985A45298E25A5CF8BD9DC92 /* BoolExtensions.swift */,
+				8AF116B012F84BAC2E621F844BB510C5 /* DataExtensions.swift */,
+				5900751730FE193C8D092CB782F2544E /* IntExtensions.swift */,
+				6C0E56306796EF71C6A0F3D6D2728816 /* NSObjectExtensions.swift */,
+				A5B0FFE3C767A0888A6F855AE0B59CD5 /* StringExtensions.swift */,
+				2D61F71DB241285237190A2FE956FDB2 /* TickTock.swift */,
+				743D557D696CDF80C2083C6E801E05CA /* UIColorExtensions.swift */,
+				03086A5560374F6C82AD1D2ABBBE6A9B /* UINavigationBarExtensions.swift */,
+				679E788DA1BBBAC1B3C57F7D944538DF /* UINavigationControllerExtensions.swift */,
+				B5633AEDA0D1EF918A1A4AFAB65CB0CB /* UITableViewExtensions.swift */,
+				57096B7357EE7EF40CDA0F49DEB5170E /* UIViewControllerExtensions.swift */,
+				EC89618C034BB9332C666579D1A07CC4 /* Helpers */,
+				83E7DD5CEDF4D8C5F9711603DB465128 /* Pod */,
+				0279A543109190D850686C96E264ED10 /* Support Files */,
+			);
+			name = BetterKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9EE58BD55E3496697F64615CDF427CD1 /* Targets Support Files */ = {
@@ -207,51 +221,40 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C8BE3120311A092BD6D6A3657FE4A313 /* Support Files */ = {
+		EC89618C034BB9332C666579D1A07CC4 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				21B71F067AEFF582546AFE50AA4B5F2D /* BetterKit.modulemap */,
-				A9FC643524CAF0476913C3E6AFE8B329 /* BetterKit.xcconfig */,
-				9EB667732474DE48430D8168EE805243 /* BetterKit-dummy.m */,
-				7B754DCEB524B14725E470090C1B20E0 /* BetterKit-prefix.pch */,
-				CFF3ABDBD8B37637A53F6A117ABB2513 /* BetterKit-umbrella.h */,
-				41CD4D35E41FB6DA38462465108388E9 /* Info.plist */,
+				3BAAF16B92F050D1A194AB993A0C9722 /* BetterKitLoader.h */,
+				B0030FB27DE014B38B473735BA9F1FB7 /* BetterKitLoader.m */,
+				3AA2FDB250D397BF03AE90FA09F83452 /* DispatchOnce.swift */,
+				73A9B649D4115DB6ACFCD64934E3F2E1 /* ObjcBlockCatcher.h */,
+				CCA174C52C54A6C2FE97345A883A89E4 /* ObjcBlockCatcher.m */,
+				FBF28A3CF0E7FE61D4FF4A7BDAB0A0A6 /* Swizzler.swift */,
+				59885EDE8C9C8184FBE85558EC453168 /* UITableViewHelper.swift */,
+				5F0BCB8C478907522332EE480580DAB6 /* UIViewControllerLoader.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BetterKit";
+			name = Helpers;
+			path = BetterKit/Classes/Helpers;
 			sourceTree = "<group>";
 		};
-		F3176D75C61FA8A5246B0DE176F79BE6 /* BetterKit */ = {
+		F82B8543F078B0EDA385E30A3FFB8B5A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7524F326CDEB4F0B2FE1BF70A221960E /* BoolExtensions.swift */,
-				3128E0B7966F1D40E553C6340FDE4893 /* IntExtensions.swift */,
-				F072318D63676E6CCFD0609A817EEDCF /* NSObjectExtensions.swift */,
-				AE5FB3E0051C65CFCE186BDDE572F657 /* StringExtensions.swift */,
-				6723222820FC947326E840F34BA78A9A /* TickTock.swift */,
-				C71F0DA839CDC36D3823D6DA4AC71C24 /* UIColorExtensions.swift */,
-				1C4F564232A205F1428AEC055A51945A /* UINavigationBarExtensions.swift */,
-				BD8A7A4FE09DC5FF60864917BBC19BA1 /* UINavigationControllerExtensions.swift */,
-				567B3361E0B6A0909EACBD8DE68DFE3A /* UITableViewExtensions.swift */,
-				B214B700D87876A34C199B7C8D061747 /* UIViewControllerExtensions.swift */,
-				4E6C0B9D422D24BFDB369EBE5B5828E8 /* Helpers */,
-				94BDE3CD552A6B35ADEBEDCA74356943 /* Pod */,
-				C8BE3120311A092BD6D6A3657FE4A313 /* Support Files */,
+				889997DAC46996F204C5F14355DA9E4A /* BetterKit */,
 			);
-			name = BetterKit;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7740F82DBE9B736C504DF0A1BD9221EE /* Headers */ = {
+		4A1F55705B1F247BE62A5E032C7015A5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7517B9B52CC947ACBA108A339504B9CD /* BetterKit-umbrella.h in Headers */,
-				4F79382EAB107694196C2FCEA75095C2 /* BetterKitLoader.h in Headers */,
-				E281DAE99F640F2326CF6B231654F2BA /* ObjcBlockCatcher.h in Headers */,
+				13D7658B10E639CACEFE5C9AAA40451A /* BetterKit-umbrella.h in Headers */,
+				8D7340606D4899290B66C4ABA4392F8E /* BetterKitLoader.h in Headers */,
+				8B2069A5BC33721D1562EAC9BD9D438B /* ObjcBlockCatcher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +269,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		696E7499A5C032E24600341B28E9603A /* BetterKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73E2B11E752BC19F15E8FDDD8269B56A /* Build configuration list for PBXNativeTarget "BetterKit" */;
+			buildPhases = (
+				C3203577B3E5187C72572040DC6200EF /* Sources */,
+				BE0CC0130E0158575E284A2F7FA6F011 /* Frameworks */,
+				4A1F55705B1F247BE62A5E032C7015A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterKit;
+			productName = BetterKit;
+			productReference = 1F3A7C2CD6DB0D68AA285E0110970685 /* BetterKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		83E51A6D64901A595F8DAE07319C5860 /* Pods-BetterKit_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33FD8F160E084506C2726741FD3771FA /* Build configuration list for PBXNativeTarget "Pods-BetterKit_Example" */;
@@ -282,23 +302,6 @@
 			name = "Pods-BetterKit_Example";
 			productName = "Pods-BetterKit_Example";
 			productReference = 4B9E706BE37AE93EE88C53D677A76B66 /* Pods_BetterKit_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		85BBF36856B7CA27DC554D4964840877 /* BetterKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6F000083DE2390BDDE532102EF95D0CA /* Build configuration list for PBXNativeTarget "BetterKit" */;
-			buildPhases = (
-				5318E9B204B6611B57344C5598C97EE6 /* Sources */,
-				39AF4A93AA81BBC3D9EF1155B02DB36E /* Frameworks */,
-				7740F82DBE9B736C504DF0A1BD9221EE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BetterKit;
-			productName = BetterKit;
-			productReference = 1F3A7C2CD6DB0D68AA285E0110970685 /* BetterKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -322,34 +325,35 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				85BBF36856B7CA27DC554D4964840877 /* BetterKit */,
+				696E7499A5C032E24600341B28E9603A /* BetterKit */,
 				83E51A6D64901A595F8DAE07319C5860 /* Pods-BetterKit_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5318E9B204B6611B57344C5598C97EE6 /* Sources */ = {
+		C3203577B3E5187C72572040DC6200EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BC826AC83A14ED05080F9291E1AB555 /* BetterKit-dummy.m in Sources */,
-				D824A1FDCA560AE9032A7B46DA433D43 /* BetterKitLoader.m in Sources */,
-				52FEC1380B8C5C660631BE148A917EE5 /* BoolExtensions.swift in Sources */,
-				4FA939842337989972122C7DE17AE42D /* DispatchOnce.swift in Sources */,
-				622A3BBAA28E40AF3921143CB205C204 /* IntExtensions.swift in Sources */,
-				9C9A100B97BF9383E47F752BE3A5359B /* NSObjectExtensions.swift in Sources */,
-				898F8DB7CC5480DCBC93B0BEFB1B1A3D /* ObjcBlockCatcher.m in Sources */,
-				482EA3455725748220643B7E8086AF95 /* StringExtensions.swift in Sources */,
-				273E5BAEA91CB136EBAC34818970EBEC /* Swizzler.swift in Sources */,
-				0C3C088F186E8BD4D638AE694F8989AB /* TickTock.swift in Sources */,
-				FA5F2FDDFA141901E66218BD83A6A86D /* UIColorExtensions.swift in Sources */,
-				CC732373C54E1D181FBBAB42B5F4477F /* UINavigationBarExtensions.swift in Sources */,
-				15B22A34ACEC691ADD86732D626EEE1F /* UINavigationControllerExtensions.swift in Sources */,
-				8082C2269054B8D12B89F5C0258D7FEE /* UITableViewExtensions.swift in Sources */,
-				9E94338D431BD299C8C875365F0E4E4A /* UITableViewHelper.swift in Sources */,
-				D0ECC23E12E16352B91DC40C7061CD83 /* UIViewControllerExtensions.swift in Sources */,
-				6970D087E2489BA0544F198D59C292E2 /* UIViewControllerLoader.swift in Sources */,
+				BEC471EB1942B818C9153248E454C26F /* BetterKit-dummy.m in Sources */,
+				A5DFF52099728EAF05781BFB94515B9F /* BetterKitLoader.m in Sources */,
+				EE868A218F1BC07F53637FBE36AA43F1 /* BoolExtensions.swift in Sources */,
+				CB88810E859042FAFAF3480A9A3D7E84 /* DataExtensions.swift in Sources */,
+				F33DDBF88AE60711DCD1A61E04CCD40C /* DispatchOnce.swift in Sources */,
+				3A7C628F0BEE482720F8D0107280FEFF /* IntExtensions.swift in Sources */,
+				F5FD2FFC1BA02E17DE711996BB7D420C /* NSObjectExtensions.swift in Sources */,
+				6751E9F9BF7634380B723AAB807163F4 /* ObjcBlockCatcher.m in Sources */,
+				D2F7D03A0CC009AAEC638E2C726016FF /* StringExtensions.swift in Sources */,
+				3E53C78EB3D18AE37C2D6F74B7CD898E /* Swizzler.swift in Sources */,
+				CB4DB87CBFBEE03186B31E9E85964F73 /* TickTock.swift in Sources */,
+				8E02223C1C9FC2935936F155326D1B47 /* UIColorExtensions.swift in Sources */,
+				E2264A1FA5AAD61BD4192A2F52944C82 /* UINavigationBarExtensions.swift in Sources */,
+				972E6276D4666B096CFBC137B8FC673E /* UINavigationControllerExtensions.swift in Sources */,
+				BB00F7EB01DFA6C9AD6C013D7BD192C3 /* UITableViewExtensions.swift in Sources */,
+				8E83C2555910FF8EDB9C6337E2AAA22D /* UITableViewHelper.swift in Sources */,
+				F11CF2CB42F6BB15E40301C3CD8093DC /* UIViewControllerExtensions.swift in Sources */,
+				78EEAEA18AB99A0A0C934452A639D714 /* UIViewControllerLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,15 +371,15 @@
 		F92023C11B8B09B2E626D953E6A2AD18 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BetterKit;
-			target = 85BBF36856B7CA27DC554D4964840877 /* BetterKit */;
+			target = 696E7499A5C032E24600341B28E9603A /* BetterKit */;
 			targetProxy = 60A4E87EAF57BBC984DB5E570895D05C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4A785969A9E65E54E872D68327CE3E97 /* Release */ = {
+		365F31938A46FA29CD1E0815473CD28B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9FC643524CAF0476913C3E6AFE8B329 /* BetterKit.xcconfig */;
+			baseConfigurationReference = A210A3245748C065854F5598C8128509 /* BetterKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -527,38 +531,6 @@
 			};
 			name = Release;
 		};
-		5933BB43D8ACB804399A009C457B2FB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9FC643524CAF0476913C3E6AFE8B329 /* BetterKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BetterKit/BetterKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BetterKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BetterKit/BetterKit.modulemap";
-				PRODUCT_MODULE_NAME = BetterKit;
-				PRODUCT_NAME = BetterKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		71995DD1A121B0851A5B506ADCA3DF52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E0B3EBB66BD8C30E91BC8D8C7D0B8C4D /* Pods-BetterKit_Example.release.xcconfig */;
@@ -594,6 +566,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		8BA6F536A38AC1ECB49F8B63310990E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A210A3245748C065854F5598C8128509 /* BetterKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BetterKit/BetterKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BetterKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BetterKit/BetterKit.modulemap";
+				PRODUCT_MODULE_NAME = BetterKit;
+				PRODUCT_NAME = BetterKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		934A08162ED5BB7C7ABC0FDE332138C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -652,11 +656,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F000083DE2390BDDE532102EF95D0CA /* Build configuration list for PBXNativeTarget "BetterKit" */ = {
+		73E2B11E752BC19F15E8FDDD8269B56A /* Build configuration list for PBXNativeTarget "BetterKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5933BB43D8ACB804399A009C457B2FB7 /* Debug */,
-				4A785969A9E65E54E872D68327CE3E97 /* Release */,
+				8BA6F536A38AC1ECB49F8B63310990E1 /* Debug */,
+				365F31938A46FA29CD1E0815473CD28B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
