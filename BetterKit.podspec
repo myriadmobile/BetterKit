@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BetterKit'
-  s.version          = '0.4.0'
+  s.version          = '0.4.1'
   s.summary          = 'A collection of useful tools to enhance standard application development'
 
 # This description is used to generate tags and improve search results.
