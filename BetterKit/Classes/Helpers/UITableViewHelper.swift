@@ -8,7 +8,7 @@
 import Foundation
 
 internal extension UITableView {
-    @objc internal func _reloadData(animation: UITableViewRowAnimation, completion: (()->Void)? = nil) {
+    @objc internal func _reloadData(animation: UITableView.RowAnimation, completion: (()->Void)? = nil) {
         var addedRows = [IndexPath]()
         var addedSections = IndexSet()
         var deletedRows = [IndexPath]()

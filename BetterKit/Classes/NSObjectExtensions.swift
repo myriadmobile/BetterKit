@@ -24,7 +24,7 @@ import Foundation
      :param: block    The block to attempt
      */
     ///
-    @objc open static func trySafe(_ block : (() -> Void)?) throws {
+    @objc public static func trySafe(_ block : (() -> Void)?) throws {
         try ObjcBlockCatcher.objc_trySafe(block)
     }
 }

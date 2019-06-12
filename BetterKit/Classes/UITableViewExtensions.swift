@@ -29,7 +29,7 @@ import Foundation
      :param: animation     The specific animation type to use
      :param: completion    A block to be invoked when the animation is completed
      */
-    @objc open func reloadData(animation: UITableViewRowAnimation, completion: (()->Void)? = nil) {
+    @objc open func reloadData(animation: UITableView.RowAnimation, completion: (()->Void)? = nil) {
         _reloadData(animation: animation, completion: completion)
     }
 }
