@@ -12,6 +12,7 @@
 		1E10DF2F9DB646E83BD126174647CFCC /* Swizzler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF28A3CF0E7FE61D4FF4A7BDAB0A0A6 /* Swizzler.swift */; };
 		2BC08D22403AE14A78F5020F52111CBC /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF116B012F84BAC2E621F844BB510C5 /* DataExtensions.swift */; };
 		2F838C623C74C3E4A304C345B0DCBA22 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57096B7357EE7EF40CDA0F49DEB5170E /* UIViewControllerExtensions.swift */; };
+		3E269CC222D68049003AE5E4 /* UIStackViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E269CC122D68049003AE5E4 /* UIStackViewExtensions.swift */; };
 		49B0AF7834E9C14AB48FB83A3FFF996D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
 		4A156597D01E432A9169B845E7C64D13 /* UINavigationBarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03086A5560374F6C82AD1D2ABBBE6A9B /* UINavigationBarExtensions.swift */; };
 		4F73D5C9C3B6449D0C05DC83B1260511 /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5633AEDA0D1EF918A1A4AFAB65CB0CB /* UITableViewExtensions.swift */; };
@@ -59,6 +60,7 @@
 		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3AA2FDB250D397BF03AE90FA09F83452 /* DispatchOnce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DispatchOnce.swift; sourceTree = "<group>"; };
 		3BAAF16B92F050D1A194AB993A0C9722 /* BetterKitLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BetterKitLoader.h; sourceTree = "<group>"; };
+		3E269CC122D68049003AE5E4 /* UIStackViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewExtensions.swift; sourceTree = "<group>"; };
 		4B9E706BE37AE93EE88C53D677A76B66 /* Pods_BetterKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57096B7357EE7EF40CDA0F49DEB5170E /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtensions.swift; path = BetterKit/Classes/UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		5900751730FE193C8D092CB782F2544E /* IntExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtensions.swift; path = BetterKit/Classes/IntExtensions.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				679E788DA1BBBAC1B3C57F7D944538DF /* UINavigationControllerExtensions.swift */,
 				B5633AEDA0D1EF918A1A4AFAB65CB0CB /* UITableViewExtensions.swift */,
 				57096B7357EE7EF40CDA0F49DEB5170E /* UIViewControllerExtensions.swift */,
+				3E269CC122D68049003AE5E4 /* UIStackViewExtensions.swift */,
 				EC89618C034BB9332C666579D1A07CC4 /* Helpers */,
 				FD8FDAAF20A367788C6EAE2A43177B12 /* Pod */,
 				1984C177E7460EC039711F03A90F82F7 /* Support Files */,
@@ -373,6 +376,7 @@
 				C978D82067DD4397A7B47BEFBD829509 /* StringExtensions.swift in Sources */,
 				1E10DF2F9DB646E83BD126174647CFCC /* Swizzler.swift in Sources */,
 				81225288C79F6B75DE16903D3BDD5980 /* TickTock.swift in Sources */,
+				3E269CC222D68049003AE5E4 /* UIStackViewExtensions.swift in Sources */,
 				CF20F086B5936FF6C780AC36A8EBBF62 /* UIColorExtensions.swift in Sources */,
 				4A156597D01E432A9169B845E7C64D13 /* UINavigationBarExtensions.swift in Sources */,
 				B24DD9E1D972391D0A96D3909E487852 /* UINavigationControllerExtensions.swift in Sources */,
@@ -510,7 +514,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BetterKit/BetterKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BetterKit/BetterKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BetterKit/BetterKit.modulemap";
 				PRODUCT_MODULE_NAME = BetterKit;
@@ -634,7 +638,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BetterKit/BetterKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BetterKit/BetterKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BetterKit/BetterKit.modulemap";
 				PRODUCT_MODULE_NAME = BetterKit;
