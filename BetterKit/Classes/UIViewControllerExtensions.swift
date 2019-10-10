@@ -29,7 +29,8 @@ import Foundation
      :param: animated                   Whether the view will appear is animated
      :param: completion                 Called on the presentation's completion
     */
-    public func present(_ viewControllerToPresent: UIViewController, modalPresentationStyle: UIModalPresentationStyle, animated: Bool, completion: (() -> Void)?) {
+    @objc open func present(_ viewControllerToPresent: UIViewController, modalPresentationStyle: UIModalPresentationStyle,
+                            animated: Bool, completion: (() -> Void)?) {
         viewControllerToPresent.modalPresentationStyle = modalPresentationStyle
         present(viewControllerToPresent, animated: animated, completion: completion)
     }
