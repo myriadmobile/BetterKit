@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09F818F4F79BEC5F0A96CB6B /* Pods_BetterKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0592F08A67394C8203B769B /* Pods_BetterKit_Example.framework */; };
+		47617C15BCBEBAC946198801 /* Pods_BetterKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503DA8D35CE110BE2B881265 /* Pods_BetterKit_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -17,7 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5F242320CC05EB71A819B33E /* Pods-BetterKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BetterKit_Example/Pods-BetterKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		303FFCDDD846F5AA48D453A1 /* Pods-BetterKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterKit_Example.release.xcconfig"; path = "Target Support Files/Pods-BetterKit_Example/Pods-BetterKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		503DA8D35CE110BE2B881265 /* Pods_BetterKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* BetterKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -25,14 +26,10 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		663587BC3042AB78856FE575 /* Pods-BetterKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BetterKit_Example/Pods-BetterKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		82DF657D205AEA17001BC214 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		9FA84DEE9B634D8AB2881A7E /* Pods_BetterKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0592F08A67394C8203B769B /* Pods_BetterKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF81E2025E55638895C0F945 /* BetterKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BetterKit.podspec; path = ../BetterKit.podspec; sourceTree = "<group>"; };
-		BE0373016920606AD9981932 /* Pods-BetterKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BetterKit_Tests/Pods-BetterKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C2DD95830F777FF3DF3C7A0A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E93A73D28B7BCB14D4553C3D /* Pods-BetterKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BetterKit_Tests/Pods-BetterKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F1F9ED6010F60FFB90FBB402 /* Pods-BetterKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-BetterKit_Example/Pods-BetterKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F4CB50E449DFCEC948384B6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,41 +38,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09F818F4F79BEC5F0A96CB6B /* Pods_BetterKit_Example.framework in Frameworks */,
+				47617C15BCBEBAC946198801 /* Pods_BetterKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		089F379A6EE160C0049F4D31 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				663587BC3042AB78856FE575 /* Pods-BetterKit_Example.debug.xcconfig */,
-				5F242320CC05EB71A819B33E /* Pods-BetterKit_Example.release.xcconfig */,
-				BE0373016920606AD9981932 /* Pods-BetterKit_Tests.debug.xcconfig */,
-				E93A73D28B7BCB14D4553C3D /* Pods-BetterKit_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		1449952FFA7CD04F43D7B3EF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A0592F08A67394C8203B769B /* Pods_BetterKit_Example.framework */,
-				9FA84DEE9B634D8AB2881A7E /* Pods_BetterKit_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for BetterKit */,
 				607FACD11AFB9204008FA782 /* Products */,
-				089F379A6EE160C0049F4D31 /* Pods */,
-				1449952FFA7CD04F43D7B3EF /* Frameworks */,
+				8085AC4F7B14478EEC78EE8A /* Pods */,
+				E914885F8846045F96B6E812 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +97,24 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		8085AC4F7B14478EEC78EE8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1F9ED6010F60FFB90FBB402 /* Pods-BetterKit_Example.debug.xcconfig */,
+				303FFCDDD846F5AA48D453A1 /* Pods-BetterKit_Example.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E914885F8846045F96B6E812 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				503DA8D35CE110BE2B881265 /* Pods_BetterKit_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -127,11 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BetterKit_Example" */;
 			buildPhases = (
-				486BE137CB282AB615034304 /* [CP] Check Pods Manifest.lock */,
+				BA1716FF6943D15111212F75 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				24EC6ED464C8519A2354E356 /* [CP] Embed Pods Frameworks */,
+				89E47FE4B95A2F57BEDDE4C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,7 +186,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		24EC6ED464C8519A2354E356 /* [CP] Embed Pods Frameworks */ = {
+		89E47FE4B95A2F57BEDDE4C7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,16 +204,20 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BetterKit_Example/Pods-BetterKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		486BE137CB282AB615034304 /* [CP] Check Pods Manifest.lock */ = {
+		BA1716FF6943D15111212F75 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-BetterKit_Example-checkManifestLockResult.txt",
 			);
@@ -363,7 +362,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 663587BC3042AB78856FE575 /* Pods-BetterKit_Example.debug.xcconfig */;
+			baseConfigurationReference = F1F9ED6010F60FFB90FBB402 /* Pods-BetterKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BetterKit/Info.plist;
@@ -379,7 +378,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F242320CC05EB71A819B33E /* Pods-BetterKit_Example.release.xcconfig */;
+			baseConfigurationReference = 303FFCDDD846F5AA48D453A1 /* Pods-BetterKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BetterKit/Info.plist;

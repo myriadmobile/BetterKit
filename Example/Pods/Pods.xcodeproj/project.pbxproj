@@ -65,11 +65,11 @@
 		7A04117D1BB0EC7EB96A0E859E8B4557 /* DataExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataExtensions.swift; path = BetterKit/Classes/DataExtensions.swift; sourceTree = "<group>"; };
 		89F62C1D1A1101B9A59D6658429B8209 /* BetterKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BetterKit-umbrella.h"; sourceTree = "<group>"; };
 		8FBC1F47E1399C96BB81D71122586622 /* Pods-BetterKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BetterKit_Example.modulemap"; sourceTree = "<group>"; };
-		8FBEF197D476ECBB7E4472B74EB93720 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		93D6347CAFB5C8B6F06354106A57EC4C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8FBEF197D476ECBB7E4472B74EB93720 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		93D6347CAFB5C8B6F06354106A57EC4C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		94BD31A085FAB0D2B0087DBB764CBADF /* UIViewControllerLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerLoader.swift; sourceTree = "<group>"; };
-		9B1F7F82614DDA6CE02F8DCD4D108509 /* Pods_BetterKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BetterKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B1F7F82614DDA6CE02F8DCD4D108509 /* Pods_BetterKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BetterKit_Example.framework; path = "Pods-BetterKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2A12011773424C2953571CE709A2A8A /* NSObjectExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSObjectExtensions.swift; path = BetterKit/Classes/NSObjectExtensions.swift; sourceTree = "<group>"; };
 		A78C0B703E8B3B057D8637145B8BBD9C /* BetterKitLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BetterKitLoader.h; sourceTree = "<group>"; };
 		A7EB1E611C7D945F942503DBEA70C6C5 /* DispatchOnce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DispatchOnce.swift; sourceTree = "<group>"; };
@@ -80,8 +80,8 @@
 		BEA8E113E94DA75D35CE41BFAA4FB9DE /* BoolExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoolExtensions.swift; path = BetterKit/Classes/BoolExtensions.swift; sourceTree = "<group>"; };
 		C70292DB9FEA2B44A5CA28E9F8F652ED /* BetterKitLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BetterKitLoader.m; sourceTree = "<group>"; };
 		CBF155CF32023C2C1C10181EB964A489 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtensions.swift; path = BetterKit/Classes/UIViewControllerExtensions.swift; sourceTree = "<group>"; };
-		CF3A82B633346F7C484D91E09B90D765 /* BetterKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BetterKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D76A9A6D0E5A4163313D7469825555D1 /* BetterKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BetterKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		CF3A82B633346F7C484D91E09B90D765 /* BetterKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BetterKit.framework; path = BetterKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76A9A6D0E5A4163313D7469825555D1 /* BetterKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BetterKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DE463EA85F21CCA1DD3CAFAA78A71CF4 /* Pods-BetterKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BetterKit_Example-Info.plist"; sourceTree = "<group>"; };
 		DF3716AB4E8981B15F02629BF6A47F16 /* Pods-BetterKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BetterKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E0D63124EB77C69A8F2E245482763590 /* BetterKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BetterKit-Info.plist"; sourceTree = "<group>"; };
@@ -643,7 +643,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
