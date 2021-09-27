@@ -18,8 +18,6 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-        
-        let color = UIColor(hexComponent: 0x12FF00)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -44,6 +42,14 @@ class ViewController: UIViewController {
         super.viewDidFirstAppear(animated)
         
         NSLog("viewDidFirstAppear")
+    }
+    
+    @IBAction func presentVC(_ sender: Any) {
+        let vc = UIViewController()
+        vc.view.backgroundColor = .blue
+        present(vc, modalPresentationStyle: .fullScreen, animated: true) { [weak self] in
+            self?.dismiss(animated: true, completion: nil)
+        }
     }
 }
 
