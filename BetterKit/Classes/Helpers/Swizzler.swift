@@ -8,9 +8,7 @@
 import Foundation
 
 internal class Swizzler {
-    static func swizzleInstanceSelector(instance: NSObject, origSelector: Selector, newSelector: Selector) {
-        let aClass: AnyClass = object_getClass(instance)!
-        
+    static func swizzleInstanceSelector(class aClass: AnyClass, origSelector: Selector, newSelector: Selector) {
         let origMethod = class_getInstanceMethod(aClass, origSelector)!
         let newMethod = class_getInstanceMethod(aClass, newSelector)!
         

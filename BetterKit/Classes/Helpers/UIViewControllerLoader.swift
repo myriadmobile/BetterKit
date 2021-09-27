@@ -19,12 +19,12 @@ private struct AssociatedKeys {
     
     @objc private class func loadExtension() {
         DispatchOnce.load(key: &AssociatedKeys.firstWillAppearDispatch).perform {
-            Swizzler.swizzleInstanceSelector(instance: UIViewController(), origSelector: #selector(viewWillAppear(_:)),
+            Swizzler.swizzleInstanceSelector(class: UIViewController.self, origSelector: #selector(viewWillAppear(_:)),
                                              newSelector: #selector(viewWillAppear_swizzled(_:)))
         }
         
         DispatchOnce.load(key: &AssociatedKeys.firstDidAppearDispatch).perform {
-            Swizzler.swizzleInstanceSelector(instance: UIViewController(), origSelector: #selector(viewDidAppear(_:)),
+            Swizzler.swizzleInstanceSelector(class: UIViewController.self, origSelector: #selector(viewDidAppear(_:)),
                                              newSelector: #selector(viewDidAppear_swizzled(_:)))
         }
     }
